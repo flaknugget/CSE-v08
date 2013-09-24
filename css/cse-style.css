@@ -411,6 +411,7 @@ html, body, .enContentWrap, .frContentWrap  {
 #surveyForm input[type="text"]:focus {
 	background-color: #262262;
 	padding: 5px;
+	margin-top: 3px;
 }
 
 #surveyForm input[type="radio"] {
