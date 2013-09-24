@@ -89,16 +89,20 @@ html, body, .enContentWrap, .frContentWrap  {
 }
   
 #topbar{
+	position: fixed; 
 	width: 1280px;
 	height: 67px;
-	
+	display: block; 
 	background-color:#000000;
+	z-index: 3;
 }
 
- #topbar .fip {
-	background-image:url(../images/topBar.png);
+ .topbar .fip {
+	 
+	background-image: url(../images/topBar.png);
   	background-size: contain;
-	display:block;
+	background-repeat:no-repeat;
+	display: block;
 	height: 67px;
  }
 
@@ -114,7 +118,7 @@ html, body, .enContentWrap, .frContentWrap  {
 	position: fixed; 
 	z-index: 2; 
 	display: block; 
-	width: 100%; 
+	width: 1280px; 
 	height: 100%;
 	background-image:url(../images/time-out-bg.png);
 	background-repeat: repeat;
