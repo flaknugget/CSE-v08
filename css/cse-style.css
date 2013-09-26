@@ -307,7 +307,7 @@ html, body, .enContentWrap, .frContentWrap  {
 	padding: 0;	
 }
 
-#langButton {
+#langButton, a#langButton {
 	font-size: 25px;
 	background: none;
 	color: #ffffff;
@@ -318,7 +318,8 @@ html, body, .enContentWrap, .frContentWrap  {
 	bottom: 10px;
 	z-index: 9999;
 	font-family: gotham-med;
-	padding: 10px 10px;	
+	padding: 10px 10px;
+	text-decoration: none;
 }
 
 

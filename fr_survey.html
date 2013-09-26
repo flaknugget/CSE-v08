@@ -207,27 +207,27 @@
 	<body id="survey-body">
       
 <img src="images/close-button.png" id="closeButton">
-<div id="langButton">FRANÇAIS</div>
+<a id="langButton" href="en_main-menu.html">ENGLISH</a>
 
 	<div id="exitScreen" style="background-image:url(images/bg-survey_background_close.png); background-repeat: no-repeat;">
-      <p class="warningMessage">RETURN TO MAIN MENU?</p>
+      <p class="warningMessage" style="font-size: 30px;">VOULEZ-VOUS VRAIMENT FERMER LE SONDAGE? </p>
       <div class="divider">&nbsp;</div>
-      <div class="exitWarning"><span class="circleArrow"><span style="float:left; display:inline-block; margin-top: 10px;">RETURN TO SURVEY</span></span> <a href="en_main-menu.html" style="color: #ffffff;"><span class="homeIcon"><span style="float:left; display:inline-block; margin-top: 10px;">EXIT</span></span></a></div>
+      <div class="exitWarning"><span class="circleArrow"><span style="float:left; display:inline-block; margin-top: 10px;font-size: 24px; width: 500px; text-align:left;">RETOURNER AU SONDAGE</span></span> <a href="fr_main-menu.html" style="color: #ffffff;font-size: 24px; padding-left: 30px;"><span class="homeIcon" style="width: 140px;"><span style="float:left; display:inline-block; margin-top: 10px;font-size: 24px;">QUITTER</span></span></a></div>
     </div>
 </div>
 <div id="introScreen">
       <p class="warningMessage">BIENVENUE À NOTRE SONDAGE</p>
       <p>Merci d’avoir visité le kiosque du CST. Vos commentaires nous aideront à préparer et à améliorer les prochains événements.</p>
       <div class="divider">&nbsp;</div>
-      <div class="backToScene"><span class="beginButton"><span style="float:left; display:inline-block; margin-top: 10px;">COMMENCEZ</span></span>
+      <div class="backToScene"><span class="beginButton"><span style="float:left; display:inline-block; margin-top: 10px; margin-left: -110px;">COMMENCEZ</span></span>
     </div>
     <p align="center"><span id="output"></span></p>
 </div>
 <div id="completeScreen">
-      <p class="warningMessage">THANK YOU FOR COMPLETING OUR SURVEY</p>
+      <p class="warningMessage">MERCI DE RÉPONDRE AU SONDAGE</p>
       
       <div class="divider">&nbsp;</div>
-      <div class="exitWarning"><a href="en_main-menu.html" style="color: #ffffff;"><span class="homeIcon"><span style="float:left; display:inline-block; margin-top: 10px;">RETURN TO MAIN MENU</span></span></a>
+      <div class="exitWarning"><a href="fr_main-menu.html" style="color: #ffffff;"><span class="homeIcon" style="width: 520px;"><span style="float:left; display:inline-block; margin-top: 10px;">RETOUR AU MENU PRINCIPAL</span></span></a>
     </div>
     <p align="center"><span id="output"></span></p>
 </div>
@@ -424,7 +424,7 @@
         <input name="q08usefulPubsTopics" id="q08usefulPubsTopics" placeholder="" value="" type="text">
       </div>
           <div style="clear:both;"></div>
-          <h4 id="quetion09anchor"> 9.	Assisterez-vous à la présentation du CST à la GTEC 2013?</h4>
+          <h4 id="quetion09anchor">9.	À laquelle des présentations suivantes du CST à la GTEC 2013 avez-vous ou comptez-vous participer?</h4>
           <div id="q09-presentations" class="question">
         <fieldset data-role="controlgroup" data-type="vertical">
               <input id="checkbox29" value="Keynote session: Cyber Security and the Government of Canada, presented by John Forster"
@@ -452,15 +452,15 @@
           <div id="q10-usefulInfo" class="question">
         <label for="q10usefulInfo" class="error" generated="true"></label>
         <fieldset data-role="controlgroup" data-type="horizontal">
-              <input id="radio15" name="q10usefulInfo" value="Strongly Agree" type="radio">
+              <input id="radio15" name="q10usefulInfo" value="Entièrement d’accord" type="radio">
               <label for="radio15"><span class="inputBtn"></span>Entièrement d’accord</label>
-              <input id="radio16" name="q10usefulInfo" value="Agree" type="radio">
-              <label for="radio16"><span class="inputBtn"></span>Être d'accord</label>
-              <input id="radio17" name="q10usefulInfo" value="Neutral" type="radio">
+              <input id="radio16" name="q10usefulInfo" value="D’accord" type="radio">
+              <label for="radio16"><span class="inputBtn"></span>D’accord</label>
+              <input id="radio17" name="q10usefulInfo" value="Sans opinion" type="radio">
               <label for="radio17"><span class="inputBtn"></span>Sans opinion</label>
-              <input id="radio18" name="q10usefulInfo" value="Disagree" type="radio">
-              <label for="radio18"><span class="inputBtn"></span>Désaccord</label>
-              <input id="radio19" name="q10usefulInfo" value="Strongly Disagree" type="radio">
+              <input id="radio18" name="q10usefulInfo" value="En désaccord " type="radio">
+              <label for="radio18"><span class="inputBtn"></span>En désaccord </label>
+              <input id="radio19" name="q10usefulInfo" value="Fortement en désaccord" type="radio">
               <label for="radio19"><span class="inputBtn"></span>Fortement en désaccord</label>
             </fieldset>
       </div>
@@ -471,12 +471,12 @@
         <fieldset data-role="controlgroup" data-type="horizontal">
               <input id="radio20" name="q11helpfulStaff" value="Entièrement d’accord" type="radio">
               <label for="radio20"><span class="inputBtn"></span>Entièrement d’accord</label>
-              <input id="radio21" name="q11helpfulStaff" value="Être d'accord" type="radio">
-              <label for="radio21"><span class="inputBtn"></span> Être d'accord </label>
+              <input id="radio21" name="q11helpfulStaff" value="D’accord" type="radio">
+              <label for="radio21"><span class="inputBtn"></span>D’accord</label>
               <input id="radio22" name="q11helpfulStaff" value="Sans opinion" type="radio">
               <label for="radio22"><span class="inputBtn"></span> Sans opinion </label>
-              <input id="radio23" name="q11helpfulStaff" value="Désaccord" type="radio">
-              <label for="radio23"><span class="inputBtn"></span> Désaccord </label>
+              <input id="radio23" name="q11helpfulStaff" value="En désaccord" type="radio">
+              <label for="radio23"><span class="inputBtn"></span>En désaccord </label>
               <input id="radio24" name="q11helpfulStaff" value="Fortement en désaccord" type="radio">
               <label for="radio24"><span class="inputBtn"></span>Fortement en désaccord</label>
             </fieldset>
@@ -488,12 +488,12 @@
         <fieldset data-role="controlgroup" data-type="horizontal">
               <input id="radio25" name="q12concernedCyberSecurity" value="Entièrement d’accord" type="radio">
               <label for="radio25"><span class="inputBtn"></span>Entièrement d’accord</label>
-              <input id="radio26" name="q12concernedCyberSecurity" value="Être d'accord" type="radio">
-              <label for="radio26"><span class="inputBtn"></span>Être d'accord</label>
+              <input id="radio26" name="q12concernedCyberSecurity" value="D’accord" type="radio">
+              <label for="radio26"><span class="inputBtn"></span>D’accord</label>
               <input id="radio27" name="q12concernedCyberSecurity" value="Sans opinion" type="radio">
               <label for="radio27"><span class="inputBtn"></span>Sans opinion</label>
-              <input id="radio28" name="q12concernedCyberSecurity" value="Désaccord" type="radio">
-              <label for="radio28"><span class="inputBtn"></span>Désaccord</label>
+              <input id="radio28" name="q12concernedCyberSecurity" value="En désaccord" type="radio">
+              <label for="radio28"><span class="inputBtn"></span>En désaccord</label>
               <input id="radio29" name="q12concernedCyberSecurity" value="Fortement en désaccord" type="radio">
               <label for="radio29"><span class="inputBtn"></span>Fortement en désaccord</label>
             </fieldset>
@@ -505,12 +505,12 @@
         <fieldset data-role="controlgroup" data-type="horizontal">
               <input id="radio30" name="q13concernedMobileSecurity" value="Entièrement d’accord" type="radio">
               <label for="radio30"><span class="inputBtn"></span>Entièrement d’accord</label>
-              <input id="radio31" name="q13concernedMobileSecurity" value="Être d'accord" type="radio">
-              <label for="radio31"><span class="inputBtn"></span> Être d'accord </label>
+              <input id="radio31" name="q13concernedMobileSecurity" value="D’accord" type="radio">
+              <label for="radio31"><span class="inputBtn"></span>D’accord</label>
               <input id="radio32" name="q13concernedMobileSecurity" value="Sans opinion" type="radio">
               <label for="radio32"><span class="inputBtn"></span> Sans opinion </label>
-              <input id="radio33" name="q13concernedMobileSecurity" value="Désaccord" type="radio">
-              <label for="radio33"><span class="inputBtn"></span> Désaccord </label>
+              <input id="radio33" name="q13concernedMobileSecurity" value="En désaccord" type="radio">
+              <label for="radio33"><span class="inputBtn"></span>En désaccord</label>
               <input id="radio34" name="q13concernedMobileSecurity" value="Fortement en désaccord" type="radio">
               <label for="radio34"><span class="inputBtn"></span> Fortement en désaccord </label>
             </fieldset>
@@ -520,15 +520,15 @@
           <div id="q14-concernedSocialSecurity" class="question">
         <label for="q14concernedSocialSecurity" class="error" generated="true"></label>
         <fieldset data-role="controlgroup" data-type="horizontal">
-              <input id="radio35" name="q14concernedSocialSecurity" value="Strongly Agree" type="radio">
+              <input id="radio35" name="q14concernedSocialSecurity" value="Entièrement d’accord" type="radio">
               <label for="radio35"><span class="inputBtn"></span>Entièrement d’accord</label>
-              <input id="radio36" name="q14concernedSocialSecurity" value="Agree" type="radio">
-              <label for="radio36"><span class="inputBtn"></span> Être d'accord </label>
-              <input id="radio37" name="q14concernedSocialSecurity" value="Neutral" type="radio">
-              <label for="radio37"><span class="inputBtn"></span> Sans opinion </label>
-              <input id="radio38" name="q14concernedSocialSecurity" value="Disagree" type="radio">
-              <label for="radio38"><span class="inputBtn"></span> Désaccord </label>
-              <input id="radio39" name="q14concernedSocialSecurity" value="Strongly Disagree" type="radio">
+              <input id="radio36" name="q14concernedSocialSecurity" value="D’accord" type="radio">
+              <label for="radio36"><span class="inputBtn"></span>D’accord</label>
+              <input id="radio37" name="q14concernedSocialSecurity" value="Sans opinion" type="radio">
+              <label for="radio37"><span class="inputBtn"></span>Sans opinion</label>
+              <input id="radio38" name="q14concernedSocialSecurity" value="En désaccord" type="radio">
+              <label for="radio38"><span class="inputBtn"></span>En désaccord</label>
+              <input id="radio39" name="q14concernedSocialSecurity" value="Fortement en désaccord" type="radio">
               <label for="radio39"><span class="inputBtn"></span>Fortement en désaccord</label>
             </fieldset>
       </div>
@@ -549,7 +549,7 @@
         <textarea name="q16recommendations" id="q16recommendations" placeholder=""></textarea>
       </div>
      
-      <div id="outputBtn"><span class="thumbsUp"><span style="float:left; display:inline-block; margin-top: 16px;">SUBMIT THE SURVEY</span></span></div>
+      <div id="outputBtn"><span class="thumbsUp" style="width: 140px;"><span style="float:left; display:inline-block; margin-top: 16px;">ENVOYER</span></span></div>
       <p style="clear:both; padding-bottom: 300px;">&nbsp;</p>
          <!-- <input id="outputBtn" onclick="TrackButtonClicked();" name="btnSubmit" type="submit" data-icon="arrow-r" data-iconpos="left" value="Submit">
           

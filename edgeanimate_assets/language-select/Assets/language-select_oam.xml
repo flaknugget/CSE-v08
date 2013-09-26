@@ -10,6 +10,7 @@
 
   <require type="other" src="language-select.html" />
   <require type="other" src="images/preLoader.gif" />
+  <require type="other" src="images/preloader1.gif" />
 
   <require type="javascript" src="language-select_edge.js" />
   <require type="javascript" src="language-select_edgeActions.js" />
