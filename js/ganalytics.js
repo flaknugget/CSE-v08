@@ -70,6 +70,12 @@ French - Quiz - Quiz Finished								frQuizFinishedClick
 
 
 			// Specific English Event Tracking Functions
+			
+			function appTimeOut() {					
+				gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Application Timeout - Return to Language Select", "Click", "Click Event", 1);
+			}
+			
+			
 			function enMenu() {					
 				gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "English - Main Menu", "Click", "Click Event", 1);
 			}

@@ -45,6 +45,7 @@ function countDownToTimeout()
 		$('.countDownTimer').html(window.countDownCount);
 		
 		if (window.countDownCount<1) {
+			appTimeOut();
 			document.getElementById('contentContainer').src = "language_select.html";			
 		}
 	}

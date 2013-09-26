@@ -104,6 +104,21 @@ html, body, .enContentWrap, .frContentWrap  {
 	background-repeat:no-repeat;
 	display: block;
 	height: 67px;
+	
+	transition: background-image 0.5s;
+	-webkit-transition: background-image 0.5s; /* Safari */
+ }
+ 
+  .topbar .fip-fr {
+	 
+	background-image: url(../images/topBar-fr.png);
+  	background-size: contain;
+	background-repeat:no-repeat;
+	display: block;
+	height: 67px;
+	
+	transition: background-image 0.5s;
+	-webkit-transition: background-image 0.5s; /* Safari */
  }
 
 

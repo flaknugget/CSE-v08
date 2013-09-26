@@ -23,7 +23,8 @@
 		document.addEventListener('deviceready', gapOnlyDeviceReady, false);
 			
 			<!-- fires device ready functions - only works within browser - is ignored on a device -->
-			$( document ).ready(function() {				
+			$( document ).ready(function() {	
+				top.englishSelected();			
 				nonGapDeviceReady();
 			});
 			

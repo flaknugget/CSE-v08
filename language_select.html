@@ -31,13 +31,15 @@
 				// Initialize Google Analytics for the app
 				gaPlugin = window.plugins.gaPlugin;
 				gaPlugin.init(nativePluginInitHandler, nativePluginErrorHandler, "UA-43302718-1", 60);
+				
 				LanguageSelectPage();
 				
 				nonGapDeviceReady();
 			}
 			
 			function nonGapDeviceReady() {
-				top.timerStop();				
+				top.timerStop();
+				top.englishSelected();				
 			}
 		
         </script>
