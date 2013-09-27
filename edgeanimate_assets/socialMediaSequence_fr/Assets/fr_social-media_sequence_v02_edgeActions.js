@@ -169,7 +169,7 @@ Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){
 //=========================================================
 
 //Edge symbol: 'email-text-bubble-01'
-(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.$("linkedin-bubble-copy-02").html("Malicious actors used “social-engineering” to guess the password to <span style='font-family: GothamMedium;'>Peter’s</span> personal e-mail account.");});
+(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.$("linkedin-bubble-copy-02").html("Les auteurs malveillants ont utilisé l’ingénierie sociale pour deviner le mot de passe du compte courriel de <span style='font-family: GothamMedium;'>Peter</span>.");});
 //Edge binding end
 })("email-text-bubble-01");
 //Edge symbol end:'email-text-bubble-01'
@@ -177,7 +177,7 @@ Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){
 //=========================================================
 
 //Edge symbol: 'email-text-bubble-02'
-(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.$("linkedin-bubble-copy-02Copy2").html("<span style='font-family: GothamMedium;'>Peter</span> used a check-in feature on Facebook. Malicious actors can use this information to make an e-mail appear genuine.");});
+(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.$("linkedin-bubble-copy-02Copy2").html("<span style='font-family: GothamMedium;'>Peter</span> a utilisé une fonction de suivi de la localisation de Facebook. Les auteurs malveillants peuvent utiliser cette information pour donner plus d’authenticité à un courriel frauduleux.");});
 //Edge binding end
 })("email-text-bubble-02");
 //Edge symbol end:'email-text-bubble-02'
@@ -185,7 +185,7 @@ Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){
 //=========================================================
 
 //Edge symbol: 'email-text-bubble-03'
-(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.$("linkedin-bubble-copy-02Copy").html("Malicious actors were able to identify <span style='font-family: GothamMedium;'>Peter’s</span> work colleagues after they were mentioned online.");});
+(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.$("linkedin-bubble-copy-02Copy").html("Ces derniers ont également été en mesure de déterminer l’identité des collègues de <span style='font-family: GothamMedium;'>Peter</span>, puisqu’ils étaient nommés en ligne.");});
 //Edge binding end
 })("email-text-bubble-03");
 //Edge symbol end:'email-text-bubble-03'
@@ -193,7 +193,7 @@ Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){
 //=========================================================
 
 //Edge symbol: 'email-text-bubble-04'
-(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.$("linkedin-bubble-copy-02Copy3").html("<span style='font-family: GothamMedium;'>Peter</span> proudly shared his title and department online.");});
+(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.$("linkedin-bubble-copy-02Copy3").html("<span style='font-family: GothamMedium;'>Peter</span> a fièrement divulgué en ligne son titre et son ministère.");});
 //Edge binding end
 })("email-text-bubble-04");
 //Edge symbol end:'email-text-bubble-04'
@@ -201,7 +201,7 @@ Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){
 //=========================================================
 
 //Edge symbol: 'email-text-bubble-05'
-(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.$("linkedin-bubble-copy-02Copy4").html("<span style='font-family: GothamMedium;'>Peter</span> mentioned this project on Twitter, lending legitimacy to the malicious attachment.");});
+(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.$("linkedin-bubble-copy-02Copy4").html("<span style='font-family: GothamMedium;'>Peter</span> mentionne également fréquemment ce projet sur Twitter, ce qui confère une plus grande légitimité à la pièce jointe.");});
 //Edge binding end
 })("email-text-bubble-05");
 //Edge symbol end:'email-text-bubble-05'
