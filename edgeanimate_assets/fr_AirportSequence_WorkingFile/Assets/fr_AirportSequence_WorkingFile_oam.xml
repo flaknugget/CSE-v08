@@ -9,6 +9,7 @@
   <icon src="images/Poster.png" width="1280" height="683" />
 
   <require type="other" src="fr_AirportSequence_WorkingFile.html" />
+  <require type="other" src="images/airport-scene-norm.gif" />
   <require type="other" src="images/cesc-airport-animation-2.gif" />
   <require type="other" src="images/CSE_Airport_Flattened.svg" />
   <require type="other" src="images/CSE_Airport_Flattened2.svg" />
@@ -30,6 +31,7 @@
   <require type="image" src="images/beAware_iconSet-fr.png" />
   <require type="image" src="images/beAware_iconSet.png" />
   <require type="image" src="images/beginBtn_icon.png" />
+  <require type="image" src="images/cse-loader-gif.jpg" />
   <require type="image" src="images/CSE_Airport_flattened.jpg" />
   <require type="image" src="images/CSE_Airport_Layered-01.png" />
   <require type="image" src="images/CSE_Airport_newestVersion.jpg" />

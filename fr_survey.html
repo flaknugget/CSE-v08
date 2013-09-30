@@ -189,7 +189,7 @@
 					 // $("#closeButton").fadeOut(300);
 					 // $("#langButton").fadeOut(300);
 					 outputForm();	
-					 top.enSurveyPageSubmitThankyou();
+					 top.frSurveyPageSubmitThankyou();
 						e.stopPropagation();
     					e.preventDefault();
 				});
@@ -256,23 +256,23 @@
         <fieldset data-role="controlgroup" data-type="horizontal" style="clear:both;">
               <div class="radioColA">
             <input id="checkbox11" value="Gouvernement fédéral" type="radio" name="q01workSector">
-            <label for="checkbox11"> <span class="inputBtn"></span>Gouvernement fédéral</label>
+            <label for="checkbox11"> <span class="inputBtn"></span> Gouvernement fédéral</label>
             <input id="checkbox12" value="Gouvernement provincial" type="radio" name="q01workSector">
-            <label for="checkbox12"> <span class="inputBtn"></span>Gouvernement provincial </label>
+            <label for="checkbox12"> <span class="inputBtn"></span> Gouvernement provincial </label>
             <input id="checkbox13" value="Gouvernement municipal" type="radio" name="q01workSector">
-            <label for="checkbox13"> <span class="inputBtn"></span>Gouvernement municipal </label>
+            <label for="checkbox13"> <span class="inputBtn"></span> Gouvernement municipal </label>
           </div>
               <div class="radioColB">
             <div style="width: 100%; display: block;">
                   <input id="q01workSectorCheckIndustry" value="Industrie" type="radio" name="q01workSector">
-                  <label for="q01workSectorCheckIndustry" style="float:left;"><span class="inputBtn"></span>Industrie (veuillez préciser)</label>
+                  <label for="q01workSectorCheckIndustry" style="float:left;"><span class="inputBtn"></span> Industrie (veuillez préciser)</label>
                   <div class="q01workSectorIndustryContainer otherField"><!--<label for="q01WorkSectorIndustry"> Please specify: </label> -->
                 <input name="q01WorkSectorIndustry" id="q01WorkSectorIndustry" placeholder="" value="" type="text" style="width: 150px;">
               </div>
                 </div>
             <div style="width: 100%; display: block; clear:both;">
                   <input id="q01workSectorCheckOther" value="Autre" type="radio" name="q01workSector">
-                  <label for="q01workSectorCheckOther" style="float:left;"><span class="inputBtn"></span>Autre (veuillez préciser)</label>
+                  <label for="q01workSectorCheckOther" style="float:left;"><span class="inputBtn"></span> Autre (veuillez préciser)</label>
                   <div class="q01WorkSectorOtherContainer otherField"><!--<label for="q01WorkSectorOther"> Please specify: </label>-->
                 <input name="q01WorkSectorOther" id="q01WorkSectorOther" placeholder="" value="" type="text" style="width: 150px;">
               </div>
@@ -290,8 +290,7 @@
             <label for="checkbox14"><span class="inputBtn"></span> TI </label>
             <input id="checkbox15" value="Sécurité des TI" type="radio" name="q02workField">
             <label for="checkbox15"><span class="inputBtn"></span> Sécurité des TI</label>
-            <input id="checkbox16" value="Recherche et développement" type="radio" name="q02workField">
-            <label for="checkbox16"><span class="inputBtn"></span> Recherche et développement </label>
+            
           </div>
               <div class="radioColB">
               <input id="checkbox17" value="Ventes ou marketing" type="radio" name="q02workField">
@@ -303,8 +302,10 @@
               <div class="q02workSectorOtherContainer otherField">
             <input name="q02workSectorOther" id="q02workSectorOther" placeholder="" value="" type="text" style="width: 150px;">
           </div>
+          </div><input id="checkbox16" value="Recherche et développement" type="radio" name="q02workField">
+            <label for="checkbox16"><span class="inputBtn"></span> Recherche et développement </label>
             </fieldset>
-      </div>
+      
           <div style="clear:both;"></div>
           <h4 id="quetion03anchor">3. Quelle catégorie représente le mieux votre poste? </h4>
           <div id="q03-workPosition" class="question">
@@ -339,7 +340,7 @@
                 type="radio">
               <label for="radio2"><span class="inputBtn"></span> Oui, j’ai connu le CST au cours de l’exposition GTEC </label>
               <input id="radio3" name="q04familiarWithCSEC" value="Non, je ne connais pas le CST" type="radio">
-              <label for="radio3"><span class="inputBtn"></span>Non, je ne connais pas le CST</label>
+              <label for="radio3"><span class="inputBtn"></span> Non, je ne connais pas le CST</label>
             </fieldset>
       </div>
           <div style="clear:both;"></div>
@@ -430,7 +431,7 @@
               <input id="checkbox29" value="Keynote session: Cyber Security and the Government of Canada, presented by John Forster"
                 type="checkbox" name="q09presentations">
               <label for="checkbox29">
-              <span class="inputBtn"></span>
+              <span class="inputBtn"></span> 
               <div style="margin-left: 40px; margin-top: -25px; line-height: 120%;"><span style="font-family: gotham-med;">Séance thème : </span><br>
             La cybersécurité au gouvernement du Canada, présentée par John Forster
             <div style="clear:both;"></div>
@@ -440,7 +441,7 @@
               <input id="checkbox30" value="Concurrent session: Cyber Intrusion Instant Replay"
                 type="checkbox" name="q09presentations">
               <label for="checkbox30">
-              <span class="inputBtn"></span>
+              <span class="inputBtn"></span> 
               <div style="margin-left: 40px; margin-top: -25px; line-height: 120%;"><span style="font-family: gotham-med;">Séance simultanée : Reprise instantanée d’une cyberintrusion</span>
             <div style="clear:both;"></div>
             <span style="font-family: gotham-book-ital;">Le mercredi 9 octobre, lieu, 14 h</span></div>
@@ -453,15 +454,15 @@
         <label for="q10usefulInfo" class="error" generated="true"></label>
         <fieldset data-role="controlgroup" data-type="horizontal">
               <input id="radio15" name="q10usefulInfo" value="Entièrement d’accord" type="radio">
-              <label for="radio15"><span class="inputBtn"></span>Entièrement d’accord</label>
+              <label for="radio15"><span class="inputBtn"></span> Entièrement d’accord</label>
               <input id="radio16" name="q10usefulInfo" value="D’accord" type="radio">
-              <label for="radio16"><span class="inputBtn"></span>D’accord</label>
+              <label for="radio16"><span class="inputBtn"></span> D’accord</label>
               <input id="radio17" name="q10usefulInfo" value="Sans opinion" type="radio">
-              <label for="radio17"><span class="inputBtn"></span>Sans opinion</label>
+              <label for="radio17"><span class="inputBtn"></span> Sans opinion</label>
               <input id="radio18" name="q10usefulInfo" value="En désaccord " type="radio">
-              <label for="radio18"><span class="inputBtn"></span>En désaccord </label>
+              <label for="radio18"><span class="inputBtn"></span> En désaccord </label>
               <input id="radio19" name="q10usefulInfo" value="Fortement en désaccord" type="radio">
-              <label for="radio19"><span class="inputBtn"></span>Fortement en désaccord</label>
+              <label for="radio19"><span class="inputBtn"></span> Fortement en désaccord</label>
             </fieldset>
       </div>
           <div style="clear:both;"></div>
@@ -470,15 +471,15 @@
         <label for="q11helpfulStaff" class="error" generated="true"></label>
         <fieldset data-role="controlgroup" data-type="horizontal">
               <input id="radio20" name="q11helpfulStaff" value="Entièrement d’accord" type="radio">
-              <label for="radio20"><span class="inputBtn"></span>Entièrement d’accord</label>
+              <label for="radio20"><span class="inputBtn"></span> Entièrement d’accord</label>
               <input id="radio21" name="q11helpfulStaff" value="D’accord" type="radio">
-              <label for="radio21"><span class="inputBtn"></span>D’accord</label>
+              <label for="radio21"><span class="inputBtn"></span> D’accord</label>
               <input id="radio22" name="q11helpfulStaff" value="Sans opinion" type="radio">
-              <label for="radio22"><span class="inputBtn"></span> Sans opinion </label>
+              <label for="radio22"><span class="inputBtn"></span>  Sans opinion </label>
               <input id="radio23" name="q11helpfulStaff" value="En désaccord" type="radio">
-              <label for="radio23"><span class="inputBtn"></span>En désaccord </label>
+              <label for="radio23"><span class="inputBtn"></span> En désaccord </label>
               <input id="radio24" name="q11helpfulStaff" value="Fortement en désaccord" type="radio">
-              <label for="radio24"><span class="inputBtn"></span>Fortement en désaccord</label>
+              <label for="radio24"><span class="inputBtn"></span> Fortement en désaccord</label>
             </fieldset>
       </div>
           <div style="clear:both;"></div>
@@ -487,15 +488,15 @@
         <label for="q12concernedCyberSecurity" class="error" generated="true"></label>
         <fieldset data-role="controlgroup" data-type="horizontal">
               <input id="radio25" name="q12concernedCyberSecurity" value="Entièrement d’accord" type="radio">
-              <label for="radio25"><span class="inputBtn"></span>Entièrement d’accord</label>
+              <label for="radio25"><span class="inputBtn"></span> Entièrement d’accord</label>
               <input id="radio26" name="q12concernedCyberSecurity" value="D’accord" type="radio">
-              <label for="radio26"><span class="inputBtn"></span>D’accord</label>
+              <label for="radio26"><span class="inputBtn"></span> D’accord</label>
               <input id="radio27" name="q12concernedCyberSecurity" value="Sans opinion" type="radio">
-              <label for="radio27"><span class="inputBtn"></span>Sans opinion</label>
+              <label for="radio27"><span class="inputBtn"></span> Sans opinion</label>
               <input id="radio28" name="q12concernedCyberSecurity" value="En désaccord" type="radio">
-              <label for="radio28"><span class="inputBtn"></span>En désaccord</label>
+              <label for="radio28"><span class="inputBtn"></span> En désaccord</label>
               <input id="radio29" name="q12concernedCyberSecurity" value="Fortement en désaccord" type="radio">
-              <label for="radio29"><span class="inputBtn"></span>Fortement en désaccord</label>
+              <label for="radio29"><span class="inputBtn"></span> Fortement en désaccord</label>
             </fieldset>
       </div>
           <div style="clear:both;"></div>
@@ -504,13 +505,13 @@
         <label for="q13concernedMobileSecurity" class="error" generated="true"></label>
         <fieldset data-role="controlgroup" data-type="horizontal">
               <input id="radio30" name="q13concernedMobileSecurity" value="Entièrement d’accord" type="radio">
-              <label for="radio30"><span class="inputBtn"></span>Entièrement d’accord</label>
+              <label for="radio30"><span class="inputBtn"></span> Entièrement d’accord</label>
               <input id="radio31" name="q13concernedMobileSecurity" value="D’accord" type="radio">
-              <label for="radio31"><span class="inputBtn"></span>D’accord</label>
+              <label for="radio31"><span class="inputBtn"></span> D’accord</label>
               <input id="radio32" name="q13concernedMobileSecurity" value="Sans opinion" type="radio">
               <label for="radio32"><span class="inputBtn"></span> Sans opinion </label>
               <input id="radio33" name="q13concernedMobileSecurity" value="En désaccord" type="radio">
-              <label for="radio33"><span class="inputBtn"></span>En désaccord</label>
+              <label for="radio33"><span class="inputBtn"></span> En désaccord</label>
               <input id="radio34" name="q13concernedMobileSecurity" value="Fortement en désaccord" type="radio">
               <label for="radio34"><span class="inputBtn"></span> Fortement en désaccord </label>
             </fieldset>
@@ -521,15 +522,15 @@
         <label for="q14concernedSocialSecurity" class="error" generated="true"></label>
         <fieldset data-role="controlgroup" data-type="horizontal">
               <input id="radio35" name="q14concernedSocialSecurity" value="Entièrement d’accord" type="radio">
-              <label for="radio35"><span class="inputBtn"></span>Entièrement d’accord</label>
+              <label for="radio35"><span class="inputBtn"></span> Entièrement d’accord</label>
               <input id="radio36" name="q14concernedSocialSecurity" value="D’accord" type="radio">
-              <label for="radio36"><span class="inputBtn"></span>D’accord</label>
+              <label for="radio36"><span class="inputBtn"></span> D’accord</label>
               <input id="radio37" name="q14concernedSocialSecurity" value="Sans opinion" type="radio">
-              <label for="radio37"><span class="inputBtn"></span>Sans opinion</label>
+              <label for="radio37"><span class="inputBtn"></span> Sans opinion</label>
               <input id="radio38" name="q14concernedSocialSecurity" value="En désaccord" type="radio">
-              <label for="radio38"><span class="inputBtn"></span>En désaccord</label>
+              <label for="radio38"><span class="inputBtn"></span> En désaccord</label>
               <input id="radio39" name="q14concernedSocialSecurity" value="Fortement en désaccord" type="radio">
-              <label for="radio39"><span class="inputBtn"></span>Fortement en désaccord</label>
+              <label for="radio39"><span class="inputBtn"></span> Fortement en désaccord</label>
             </fieldset>
       </div>
           <div style="clear:both;"></div>

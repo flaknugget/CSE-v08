@@ -172,4 +172,10 @@ Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){
 //Edge symbol: 'airportSceneBackground_normal'
 (function(symbolName){})("airportSceneBackground_normal");
 //Edge symbol end:'airportSceneBackground_normal'
+
+//=========================================================
+
+//Edge symbol: 'Airport_Background_SMB'
+(function(symbolName){})("Airport_Background_SMB");
+//Edge symbol end:'Airport_Background_SMB'
 })(jQuery,AdobeEdge,"EDGE-21219353");
