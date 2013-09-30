@@ -198,9 +198,9 @@ Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",3750,function(sym,
 //Edge symbol: 'arrow_slider_smb'
 (function(symbolName){Symbol.bindElementAction(compId,symbolName,"${_arrow_Icon_cirlce}","click",function(sym,e){var scrollText=sym.getSymbol("scrollingTextBox_smb");scrollText.play("secondPos");});
 //Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.stop();});
+Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",154,function(sym,e){sym.stop();});
 //Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",6989,function(sym,e){sym.stop();});
+Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",7089,function(sym,e){sym.stop();});
 //Edge binding end
 })("arrow_slider_smb");
 //Edge symbol end:'arrow_slider_smb'
