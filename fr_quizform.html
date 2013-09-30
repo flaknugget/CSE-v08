@@ -45,7 +45,8 @@
 				$("#exitScreen").hide();
 				$("#completeScreen").hide();
 				
-				
+				$("#quizName").click(function () {location.href = "#surveyForm";});
+				$("#quizEmail").click(function () {location.href = "#quizFormAnchor";});
 				
 				
 				$("#closeButton").click(
@@ -126,7 +127,7 @@
             <input name="quizName" id="quizName" placeholder="" value="" type="text" style="width: 400px;">
           </div>
         
-      <div class="clear" style="padding-top: 20px;">
+      <div class="clear" style="padding-top: 20px;" id="quizFormAnchor">
       <div style="float:left;">
             <label for="quizEmail" style="float:left; margin-top: 7px;font-family: gotham-med;">Adresse électronique :</label>
           </div>
