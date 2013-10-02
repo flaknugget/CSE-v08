@@ -98,6 +98,8 @@ Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",1750,function(sym,
 //Edge binding end
 Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){parent.showClose();});
 //Edge binding end
+Symbol.bindSymbolAction(compId,symbolName,"creationComplete",function(sym,e){var playBackground=sym.getSymbol("HotelBackground_SMB");playBackground.play();});
+//Edge binding end
 })("stage");
 //Edge symbol end:'stage'
 
@@ -214,6 +216,8 @@ Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",6989,function(sym,
 //=========================================================
 
 //Edge symbol: 'HotelBackground_SMB'
-(function(symbolName){})("HotelBackground_SMB");
+(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",6113,function(sym,e){sym.play(1);});
+//Edge binding end
+})("HotelBackground_SMB");
 //Edge symbol end:'HotelBackground_SMB'
 })(jQuery,AdobeEdge,"EDGE-21219353");
