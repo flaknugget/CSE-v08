@@ -33,11 +33,11 @@ Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",29100,function(sym
 //Edge binding end
 Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",39100,function(sym,e){});
 //Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",50000,function(sym,e){sym.stop();sym.getSymbol("view-best-practices-button").play("waiting");});
+Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",50000,function(sym,e){sym.stop();sym.getSymbol("best-practices-arrow-02").play("waiting");});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_view-best-practices-button}","click",function(sym,e){sym.getSymbol("bet-practices-overlay").play("into-end-scene-practices");parent.hideClose();});
+Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",48000,function(sym,e){sym.getSymbol("bet-practices-overlay").stop("end-screen");});
 //Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",48000,function(sym,e){sym.getSymbol("bet-practices-overlay").play("hideText");});
+Symbol.bindElementAction(compId,symbolName,"${_Rectangle}","click",function(sym,e){sym.getSymbol("bet-practices-overlay").play("close-end-screen");});
 //Edge binding end
 })("stage");
 //Edge symbol end:'stage'
@@ -275,6 +275,14 @@ Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",21500,function(sym
 //Edge binding end
 Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",23500,function(sym,e){var nextScene=sym.getVariable("next-practice-step");if(nextScene=="exit"){window.open("../../../fr_main-menu.html","contentContainer");sym.stop();}else{sym.play("end-scene-practices");};});
 //Edge binding end
+Symbol.bindElementAction(compId,symbolName,"${_ViewBestPractices_textCopy}","click",function(sym,e){sym.play("close-end-screen");});
+//Edge binding end
+Symbol.bindElementAction(compId,symbolName,"${_exitBtn-MainCopy2}","click",function(sym,e){sym.play("close-end-screen");});
+//Edge binding end
+Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",5500,function(sym,e){sym.play("into-end-scene-practices");});
+//Edge binding end
+Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",5000,function(sym,e){sym.stop();});
+//Edge binding end
 })("bet-practices-overlay");
 //Edge symbol end:'bet-practices-overlay'
 
@@ -331,4 +339,14 @@ Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",23500,function(sym
 //Edge symbol: 'Preloader'
 (function(symbolName){})("Preloader");
 //Edge symbol end:'Preloader'
+
+//=========================================================
+
+//Edge symbol: 'best-practices-arrow-02'
+(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.stop();});
+//Edge binding end
+Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",2210,function(sym,e){sym.play("waiting");});
+//Edge binding end
+})("best-practices-arrow-02");
+//Edge symbol end:'best-practices-arrow-02'
 })(jQuery,AdobeEdge,"EDGE-8632800");
