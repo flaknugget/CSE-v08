@@ -201,7 +201,7 @@ Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){
 //=========================================================
 
 //Edge symbol: 'email-text-bubble-05'
-(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.$("linkedin-bubble-copy-02Copy4").html("<span style='font-family: GothamMedium;'>Peter</span> mentionne également fréquemment ce projet sur Twitter, ce qui confère une plus grande légitimité à la pièce jointe.");});
+(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.$("linkedin-bubble-copy-02Copy4").html("<span style='font-family: GothamMedium;'>Peter</span> mentionne également fréquemment <br>ce projet sur Twitter, ce qui confère une <br>plus grande légitimité à la pièce jointe.");});
 //Edge binding end
 })("email-text-bubble-05");
 //Edge symbol end:'email-text-bubble-05'
