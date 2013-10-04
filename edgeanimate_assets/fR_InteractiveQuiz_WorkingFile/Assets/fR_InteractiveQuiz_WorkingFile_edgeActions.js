@@ -85,7 +85,7 @@ Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",65842,function(sym
 //Edge binding end
 Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",68364,function(sym,e){sym.stop();sym.$("correctText1Copy7").html("Le CST recommande fortement d’adopter ces quatre mesures. Comme elles ciblent les étapes précises d’une intrusion typique, elles se complètent, augmentant ainsi leur efficacité.");});
 //Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",70364,function(sym,e){sym.stop();sym.$("Text8").html("La bonne réponse est<span style='font-family: GothamMedium; color: #262262;'> « Toutes ces réponses »</span></br></br>Le CSTC recommande fortement d’adopter ces quatre mesures. Comme elles ciblent les étapes précises d’une intrusion typique, elles se complètent, augmentant ainsi leur efficacité.");});
+Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",70364,function(sym,e){sym.stop();sym.$("Text8").html("La bonne réponse est<span style='font-family: GothamMedium; color: #262262;'> « Toutes ces réponses »</span></br></br>Le CST recommande fortement d’adopter ces quatre mesures. Comme elles ciblent les étapes précises d’une intrusion typique, elles se complètent, augmentant ainsi leur efficacité.");});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_beginBtn_iconCopy17}","click",function(sym,e){});
 //Edge binding end
